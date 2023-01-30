@@ -8,26 +8,47 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div class="container">
+      <div class="text-container">
+        <h1>Get <span class="accent-text">insights</span> that help your business grow.</h1>
+        <p class="main-para">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <strong>10k+</strong>
+            <span>companies</span>
+          </div>
+          <div class="stat">
+            <strong>314</strong>
+            <span>templates</span>
+          </div>
+          <div class="stat">
+            <strong>12m+</strong>
+            <span>queries</span>
+          </div>
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="./images/image-header-desktop.jpg" alt="Hero Banner">
+        <div class="accent-bg"></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/reanderagulto">Reander Agulto</a>.
+    </div>
+  </footer>
 </body>
 </html>
